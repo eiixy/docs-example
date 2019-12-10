@@ -17,14 +17,14 @@ module.exports = {
                 link: '/config/'
             },
             {
-                text: 'External',
+                text: 'Google',
                 link: 'https://google.com'
             },
         ],
         sidebar: {
             '/guide/': [
                 {
-                    title: 'Group 1', // 必要的
+                    title: 'Group 1',
                     collapsable: true,
                     path: '/guide/',
                     children: [
