@@ -2,12 +2,10 @@ module.exports = {
     title: 'Headless Cms',
     description: '',
     docsDir: 'docs',
+    base: '/docs-example/',
     themeConfig: {
         logo: 'https://avatars1.githubusercontent.com/u/22978107?s=40&v=4',
-        nav: [{
-                text: 'Home',
-                link: '/'
-            },
+        nav: [
             {
                 text: 'Guide',
                 link: '/guide/'
@@ -17,8 +15,8 @@ module.exports = {
                 link: '/config/'
             },
             {
-                text: 'Google',
-                link: 'https://google.com'
+                text: 'Api',
+                link: 'http://yapi.51zts.com/'
             },
         ],
         sidebar: {
